@@ -7,13 +7,13 @@ export function Index() {
 
       <div className="mt-6">
         <PageCardList>
-          {/* <PageCard
+          <PageCard
             to="/warframe"
-            src="https://picsum.photos/500/500"
-            alt="Image"
+            src="/warframe/logo.png"
+            alt="Warframe Logo"
             title="Warframe"
             description="Warframe이라는 TPS 게임 랜딩 사이트 (GSAP)"
-          /> */}
+          />
         </PageCardList>
       </div>
     </div>

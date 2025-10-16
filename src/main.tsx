@@ -5,13 +5,16 @@ import "./index.css";
 
 import { BrowserRouter, Route, Routes } from "react-router";
 
-import { Index } from "./pages";
+import { Index } from "~/pages";
+import { WarframePage } from "~/pages/warframe";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Index />} />
+
+        <Route path="/warframe" element={<WarframePage />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
